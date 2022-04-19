@@ -8,7 +8,9 @@
     "ZimonIsHim"
   ],
   "contact": {
-    "website": "https://zimonishim.com/"
+    "website": "https://zimonishim.com/",
+    "sources": "https://github.com/ZimonIsHim/UseKeyboardWithMenu",
+    "issues": "https://github.com/ZimonIsHim/UseKeyboardWithMenu/issues"
   },
   "license": "MIT",
   "icon": "assets/zihusekeyboardwithmenu/icon.png",
