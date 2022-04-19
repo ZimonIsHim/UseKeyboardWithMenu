@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "zihusekeyboardwithmenu",
+  "version": "${version}",
+  "name": "UseKeyboardWithMenu",
+  "description": "Adds more support for keyboard navigation in GUI screens!",
+  "authors": [
+    "ZimonIsHim"
+  ],
+  "contact": {
+    "website": "https://zimonishim.com/"
+  },
+  "license": "MIT",
+  "icon": "assets/zihusekeyboardwithmenu/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.zimonishim.zihusekeyboardwithmenu.client.ZihusekeyboardwithmenuClient"
+    ],
+    "main": [
+      "com.zimonishim.zihusekeyboardwithmenu.Zihusekeyboardwithmenu"
+    ]
+  },
+  "mixins": [
+    "zihusekeyboardwithmenu.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
